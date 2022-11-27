@@ -5,6 +5,18 @@ type Curle struct {
 	age  int
 }
 
-func (c *Curle) getname() string {
-	return c.getname()
+func (c *Curle) Getname() string {
+	return c.name
+}
+
+func (c *Curle) SetName(name string) {
+	c.name = name
+}
+
+func (c *Curle) GetAge() int {
+	return c.age
+}
+
+func (c *Curle) SetAge(age int) {
+	c.age = age
 }
